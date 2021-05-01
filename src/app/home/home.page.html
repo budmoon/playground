@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Your Mom
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>Ready to slap some cheeks?</strong>
+    <h1>You entered this page: {{ timestamp }}</h1>
+    <ion-button color="warning" (click)="diceRoll()">Roll the dice</ion-button>
+    <p>{{ value }}</p>
+    <ion-toggle></ion-toggle>
+  </div>
+</ion-content>
